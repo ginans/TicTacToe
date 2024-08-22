@@ -7,6 +7,9 @@ export default defineConfig({
   base: "/tictactoe/",
   server: {
     port: 5173,
-    host: '0.0.0.0',
-  },
+    host: true, // Cambiamos '0.0.0.0' por true
+    strictPort: true,
+    hmr: {
+      clientPort: 443 // Esto es importante para Codespaces
+    }
 });
