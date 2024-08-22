@@ -1,17 +1,18 @@
 {
-  "homepage": "https://github.com/ginans/tictactoe.git",
+  "homepage": "https://ginans.github.io/tictactoe/",
   "name": "tictactoe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "gh-pages-clean": "gh-pages-clean"
+    "gh-pages-clean": "gh-pages-clean",
+    "dev:codespace": "vite --host 0.0.0.0"
   },
   "dependencies": {
     "react": "^18.3.1",
