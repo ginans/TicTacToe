@@ -12,4 +12,5 @@ export default defineConfig({
     hmr: {
       clientPort: 443 // Esto es importante para Codespaces
     }
+  }
 });
