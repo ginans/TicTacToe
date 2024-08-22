@@ -12,7 +12,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "gh-pages-clean": "gh-pages-clean",
-    "dev:codespace": "vite --host 0.0.0.0"
+    "dev:codespace": "vite --host 0.0.0.0",
+    "dev:debug": "vite --debug --host"
   },
   "dependencies": {
     "react": "^18.3.1",
